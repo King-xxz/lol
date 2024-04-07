@@ -1,0 +1,95 @@
+/* main-part  start */
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    overflow: hidden;
+    height: 1080px;
+    margin: 0 auto;
+    background: url(../first-images/side.webp);
+    background-color: pink;
+}
+
+.middle-main {
+    position: relative;
+    width: 1200px;
+    height: 1080px;
+    margin-left: 360px;
+    background: url(../first-images/middle.webp) no-repeat;
+}
+
+.middle-main .name-main {
+    position: absolute;
+    top: 34px;
+    left: -296px;
+    width: 359px;
+    height: 62px;
+    background: url(../first-images/logo1.webp) no-repeat;
+}
+
+.btn-main {
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 860px;
+    display: flex;
+}
+
+.btn-main .left-btn {
+    position: relative;
+    display: block;
+    margin-left: 5px;
+    width: 335px;
+    height: 91px;
+    background: url(../first-images/bottom-left.webp) no-repeat;
+}
+
+.btn-main .middle-btn {
+    position: relative;
+    display: block;
+    margin-left: 87px;
+    width: 335px;
+    height: 91px;
+    background: url(../first-images/bottom-middle.webp) no-repeat;
+}
+
+.btn-main .right-btn {
+    position: relative;
+    display: block;
+    margin-left: 87px;
+    width: 335px;
+    height: 91px;
+    background: url(../first-images/bottom-right.webp) no-repeat;
+}
+
+/* main-part  end */
+
+
+
+/* footer-part  start */
+.footer {
+    background-color: #000;
+    text-align: center;
+    position: relative;
+}
+
+.footer p,
+a {
+    color: #6e6e6e;
+    font: 12px "Microsoft soft";
+}
+
+.footer p {
+    line-height: 24px;
+}
+
+.content-footer {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* footer-part  end */
